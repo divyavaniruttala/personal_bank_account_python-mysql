@@ -1,5 +1,5 @@
 # personal_bank_account_python-mysql
-1.INTRODUCTION    
+ 
 Personal Bank Account: An individual account means a bank account that is only used for non-business activities. The distinction is made between personal accounts and other accounts in banking and accounting because different account types have different implications and treatments. In a business account there are probably many users that are extracting from a large pool of money for the purpose of running a business.
 For a personal account, there should only be one person depositing and withdrawing money and therefore security measures will be in place to make sure the right person is accessing the funds. Personal accounts are often kept completely separate from business and joint accounts because they are completely in the interest of one user rather than many. Functioning of a Bank is among the more complicated of corporate operations. Since Banking involves dealing directly with money it becomes difficult. So, this application was made to make all that process easy.
 This application provides you convenience and basic banking transactions such as transferring funds between accounts can easily be done any time of the day or night, seven days a week.is fast and efficient. Funds can be transferred between accounts almost instantly. You can open and close a number of different accounts online.
@@ -26,7 +26,7 @@ The Personal Bank Account is a Database Project which is more efficient, fast, r
 
 
 
-    3.  DATA REQUIREMENTS
+ DATA REQUIREMENTS
 
 
 ENTITIES:
@@ -61,7 +61,7 @@ RELATIONSHIPS – CARDINALITY
 	CUSTOMERS can WITHDRAWAL
 
 
-4.ENTITY RELATIONSHIP -DIAGRAM
+ENTITY RELATIONSHIP -DIAGRAM
 
 
 
