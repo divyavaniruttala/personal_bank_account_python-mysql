@@ -1,0 +1,60 @@
+
+
+mysql>create database our_bank;
+
+mysql>use our_bank
+
+database changed
+
+mysql>CREATE TABLE Bank(
+  Bank_id varchar(20),
+  Bank_name varchar(50),
+  IFSC_Code varchar(15),
+  Address varchar(100)
+  );
+
+Query OK,0 rows affected(1.44sec)
+
+mysql>INSERT INTO Bank values("572940","OURS BANK OF ANDHRA  UNIVERSITY","OUR25830015","AU COLLEGE OF ENGINEERING,MADDILAPALEM,VISAKHAPATNAM,530003");
+
+Query OK, 1 row affected (0.18 sec)
+
+mysql>CREATE TABLE customers (
+    name varchar(20),
+    acno varchar(20),
+    Dob varchar(25),
+    ph int,
+    Address varchar(55),
+    date DATE
+);
+
+
+Query OK,0 rows affected(1.44sec)
+
+mysql>CREATE TABLE amounts (
+    name varchar(20),
+    acno varchar(20),
+    balance int);
+    
+Query OK,0 rows affected(1.44sec)
+
+ mysql>CREATE TABLE credited(
+    acno varchar(20),
+    balance int,
+    date DATE
+    );
+    
+Query OK,0 rows affected(1.44sec)
+  
+mysql>CREATE TABLE debited(
+    acno varchar(20),
+    balance int,
+    date DATE     );
+    Query OK,0 rows affected(1.44sec)
+
+  mysql>  CREATE TABLE loan (
+    acno varchar(20),
+    loan_amt int,
+    issued_date DATE 
+    );
+   
